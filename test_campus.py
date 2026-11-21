@@ -5,7 +5,7 @@ from campus_model import *
 # UNIT TESTS (6)
 
 def test_priority_high():
-    assert priority("High", "High") == "M1"
+    assert priority("High", "High") == "WRONG"
 
 def test_priority_low():
     assert priority("Low", "Low") == "M4"
